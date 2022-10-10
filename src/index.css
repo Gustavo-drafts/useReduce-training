@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background: #2e2e2e;
+  color: #fff;
+}
+
+input {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #9c9c9c;
+}
+
+li {
+  list-style: none;
+}
+
+a:hover {
+  color: #fff;
+}
